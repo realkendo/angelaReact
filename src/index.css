@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background: #000;
+  color: white;
+  width: 100%;
+  padding: 0 0;
+  margin-bottom: 1%;
+  margin-top: 0;
+  font-family: Jokerman;
+  font-size: larger;
+  text-align: center;
+}
+
+.header h2{
+  padding: 0;
+  margin: 0;
+}
+
+.note{
+  padding: 10px 10px;
+  width: 200px;
+  color: #000;
+  background: linear-gradient(to bottom, #eba, #caf );
+  box-shadow: #000;
+  border-radius: 5%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1%;
+}
+ 
+ .footer{
+  background: #000;
+  color: white;
+  width: 100%;
+  height: 50px;
+  margin-top: 1%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  padding: auto;
+} 
+
+.bcard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  margin: 5px 5px;
+  max-width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: 0.8s ease-in-out;
+}
+
+.bcard:hover{
+  background-color: #000;
+  color: white;
+}
+
+.bcard img{
+  width: 200px;
+  height: 150px;
+  transition: 0.3s ease-in-out;
+}
+
+.bcard h2{
+  font-family: jokerman;
+}
+
+.bcard div{
+  font-family: tahoma;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.red{
+  color: red;
+  border: 2px solid red;
+}
+
+.blue{
+  color: blue;
+  border: 2px solid blue;
+}
+
+.green{
+  color: darkgreen;
+  border: 2px solid darkgreen;
+}
+
+.orange{
+  color: orange;
+  border: 2px solid orange;
+} 
+
+/* emoji styles */
+.title{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: jokerman;
+  font-size: large;
+}

@@ -8,7 +8,7 @@ import Entry from "./components/Entry";
 
 // objects import
 import contacts from "./contacts";
-import emojipedia from "./emojipedia";
+// import emojipedia from "./emojipedia";
 
 // Keeper Component
 const Keeper = () => {
